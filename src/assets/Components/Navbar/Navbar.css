@@ -1,0 +1,99 @@
+.navbar-titles{
+    font-size: 18px;
+    color: #0b0b0b;
+}
+
+
+ 
+
+
+
+
+.navbar-wrapper{
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.navbar-start{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 75%;
+    margin: auto;
+    background-color: transparent; 
+    -webkit-box-shadow: 7px 7px 0 0 #0b0b0b;
+    -moz-box-shadow: 7px 7px 0 0 #0b0b0b;
+    box-shadow: 7px 7px 0 0 #0b0b0b;
+    border: 2px solid black;
+    border-radius: 18px;
+}
+
+.nav-item{
+margin-left: 1rem;
+}
+
+.nav-link.active:hover{
+color: #1c92ff 
+}
+.dropdown-menu{
+box-shadow: 0 3px 15px 0 rgb(18 20 41 / 20%);
+border: none;
+
+}
+.dropdown-item:hover{
+color: #1c92ff;
+}
+
+.nav-section{
+justify-content:right;
+}
+
+.btn-primary{
+font-weight: 700 !important;
+font-size: 18px !important;
+color: white;
+}
+
+.btn-primary:hover{
+background-color: black !important;
+border-color: black !important;
+color: white;
+
+}
+.nav-icons{
+font-size: 22px;
+font-weight:700;
+}
+
+.btn-navbar-contact{
+    font-size: 22px;
+    color: white !important;
+    background-color: #0b0b0b;
+    padding: 7px 12px !important;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    margin-left: 50px;
+    float: right;
+}
+
+.navbar-btn > .nav-link:hover{
+    background-color: #1c92ff;
+    transition: all 0.2s ease-out;
+    transform: translate(0, -3px);
+}
+
+.navbar-toggler:hover{
+    box-shadow: none !important;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .btn-navbar-contact{
+        margin-right: 0px;
+    }
+}
+
+.dropdown-list{
+    border: 2px solid #0b0b0b;
+    border-radius: 16px;
+}

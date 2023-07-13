@@ -1,0 +1,113 @@
+.contact-main{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: 4px 4px 0px 4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 4px 0px 4px rgba(0, 0, 0, 1);
+    box-shadow: 4px 4px 0px 4px rgba(0, 0, 0, 1);
+}
+
+label::after {
+    content: '*';
+    color: red;
+}
+
+.contact-card {
+    border: 2px solid black;
+    max-width: fit-content;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.contact-icon {
+    font-size: 28px;
+    border-radius: 50%;
+    padding: 8px 12px;
+    color: #000000;
+    border: none;
+}
+
+.self-contact:hover{
+    color: #1D88FE;
+}
+
+.form-icon {
+    font-size: 22px;
+    color: #000000;
+    border: none;
+}
+
+
+.contact-box>.input-group-text {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.3s ease-in;
+}
+
+
+.contact-box>.input-group-text:hover {
+    -webkit-box-shadow: 2px 2px 0px 2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 0px 2px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 0px 2px rgba(0, 0, 0, 1);
+    transition: all 0.4s ease;
+
+}
+
+.control {
+    border: none;
+}
+
+.control:hover {
+    outline: none;
+    border: none;
+}
+
+#Name,
+#Email {
+    padding: 6px 0px;
+    padding-left: 7px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+#Name,#Email:hover {
+    outline: none;
+    border: none;
+    background-color: white !important;
+}
+
+
+textarea {
+    resize: none;
+    outline: none !important;
+    border: none !important;
+}
+
+.contact-btn{
+    color: white;
+    padding: 26px 38px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0b0b0b;
+    border-radius: 16px;
+    background-color: #0b0b0b;
+    font-size: 18px;
+}
+
+.contact-btn:hover{
+    border: 2px solid #1D88FE;
+    background-color: #1D88FE;
+    color: white;
+}
+
+.email-link{
+    text-decoration: none;
+    color: black;
+}
+
+.email-link:hover{
+    color: #1D88FE;
+}

@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: "Onest-bold";
+    src: local("Onest"),
+        url("../src/assets/Css/TTF/OnestBold1602-hint.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Onest-medium";
+    src: local("Onest"),
+        url("../src/assets/Css/TTF/OnestMedium1602-hint.ttf") format("truetype");
+}
+
+
+.inter-bold {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+}
+
+.inter-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.inter-semibold{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.inter-medium {
+    /* font-family: Onest-medium; */
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    /* font-family: Onest-light; */
+    font-family: 'Inter', sans-serif;
+}
+
+.desc-text{
+    font-size: 18px;
+    color: #393939;
+}
+
+
+.btn-darker {
+    color: white;
+    padding: 26px 38px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0b0b0b;
+    border-radius: 16px;
+    background-color: #0b0b0b;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all ease-in 0.3s;
+}
+
+.btn-darker:hover {
+    background-color: #1D88FE;
+    color: white;
+    transform: all ease 0.3s;
+
+}
+
+.btn-lighter {
+    color: black;
+    background-color: white;
+    padding: 26px 38px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0b0b0b;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all ease-in 0.3s;
+}
+
+.btn-lighter:hover {
+    background-color: black;
+    color: white;
+    transition: all ease 0.3s;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 900ms ease-out;
+  }
+  
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+  }

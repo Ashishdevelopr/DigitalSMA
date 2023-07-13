@@ -1,0 +1,82 @@
+
+.client{
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.client-portfolio{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0b0b0b;
+    border-radius: 28px;
+    background-color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    transform: scale(1);
+}
+
+.client-portfolio:hover{
+    box-shadow: 10px 10px 0 0 #0b0b0b;
+    transition: all 0.5s ease-out;
+    transform: scale(1.02);
+}
+
+
+.client-text{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 36px;
+    font-size:18px
+}
+
+.client-portfolio-button{
+    padding: 16px 32px;
+    border: none;
+    background-color: #0b0b0b;
+    color: #fff;
+    border-radius: 16px;
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+}
+
+.client-portfolio-button:hover{
+    background-color: #1D88FE;
+    color: #fff;
+    transition: all 0.3s ease;
+    transform: translate(0, -3px);
+
+}
+
+.portfolio-image{
+    background-color: #6633FF;
+    overflow: hidden;
+    border:none;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    display: flex;
+}
+
+.carousel-control-prev-icon{
+    background-color: #1D88FE;
+    border: solid 1px black;
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio-image{
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: 0px; 
+        border-top-left-radius: 0px; 
+    }
+  }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" content="html/text"/>
+    <link rel="icon" type="image/svg+xml" href="/webicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- fontawesome cdn link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- Google Font link -->
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+   <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- meta Tags -->
+    <title>Webpreneur | Digital Agency</title>
+    <meta name="title" content="Digital Agency | Webpreneur"/>
+    <meta name="description" content="Elevate your online presence with our agency, we create web experiences for your website that are both visually stunning and highly functional."/>
+    <link rel="canonical" href="https://webpreneur.in" />
+    <meta name="google-site-verification" content="pel-S2yyInZn-vzVQDhCNzxrpT-zrOocPn3iIk5JU6s" />
+    <meta name="keywords" content="Digital agency, Website development, website design, webpreneur, wordpress website, SMMA, landing page, web solutions, website development agency, digital marketing agency, website development service"/>
+    <meta name="language" content="English">
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="text/javascript">
+      window.addEventListener('scroll', reveal);
+  
+       function reveal(){
+        var reveals = document.querySelectorAll('.reveal');
+  
+        for(var i = 0; i < reveals.length; i++){
+  
+          var windowheight = window.innerHeight;
+          var revealtop = reveals[i].getBoundingClientRect().top;
+          var revealpoint =50;
+
+          if(revealtop < windowheight - revealpoint){
+            reveals[i].classList.add('active');
+          }
+          // else{
+          //   reveals[i].classList.remove('active');
+          // }
+        }
+      }
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

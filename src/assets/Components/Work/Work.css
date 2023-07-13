@@ -1,0 +1,56 @@
+.work-card-border{
+    border: 2px solid black;
+    border-radius: 16px;
+    transition: all 0.3s ease-in;
+    transform: scale(1);
+}
+
+.work-card-body{
+    padding: 15px 25px 25px;
+}
+
+.card-size{
+    width: 370px;
+
+}
+
+.work-text{
+    font-size: 22px;
+}
+
+.work-icons{
+    height:auto;
+    width: 22%;
+    padding-bottom:5px ;
+}
+.work-card-border:hover {
+    -webkit-box-shadow:4px 4px 0px 2px rgba(0, 0, 0, 1);
+    -moz-box-shadow:4px 4px  0px 2px rgba(0, 0, 0, 1);
+    box-shadow:4px 4px  0px 2px rgba(0, 0, 0, 1);
+    border-radius: 16px;
+    transition: all 0.5s ease-out;
+    transform: scale(1.02);
+}
+
+.work-topic-head{
+    font-size: 22px;
+}
+
+.card-text{
+    font-size: 18px;
+    color: #393939;
+}
+.work{
+    border: none !important;
+}
+
+.fa-square-code{
+    color:red;
+}
+
+.card-icons{
+    height: 3px;
+    width: 30px;
+    border: 1px solid #393939;
+    background: #1c92ff;
+}
